@@ -13,6 +13,7 @@ UPDATE gym set website = 'https://www.elitefitness.ro', name = 'Elitte Fitness',
 -- Table 2 employees
 select * from employees;
 UPDATE employees set name = 'Vasilescu Andrada', age = 23 where id = 5;
+UPDATE employees set position = 'janitor', name = 'Vlada Dan' where name = 'Dinu Cristian';
 
 -- Table 3 facilities 
 
